@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #124074;
+    font-weight: 700;
+    color: #fff;
+    font-size: 22px;
+    font-family: "be vietnam";
+    overflow: hidden;
+}
+
+.Icons {
+    display: grid;
+    grid-template-columns: repeat(5, 400px 1fr 1fr 1fr 1fr);
+    margin-top: 20px;
+    grid-gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li:nth-child(1) {
+    margin-right: 200px;
+}
+
+li:nth-child(2) {
+    margin-left: 340px;
+}
+
+.Icon {
+    text-align: center;
+    padding: 10px 30px;
+    padding-top: 5px;
+    border-radius: 50px;
+}
+
+.Icon:not(:first-of-type) {
+    background-color: #17375b;
+    transition: transform .3s;
+}
+
+.Icon:not(:first-of-type):hover {
+    background-color: #4475e2;
+    cursor: pointer;
+    transform: translateY(5px);
+}
+
+.Main {
+    display: grid;
+    grid-template-columns: repeat(2, 700px 1fr);
+    align-items: center;
+    margin-top: 25px;
+}
+
+.Main-content {
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+
+.Main-content h3 {
+    margin-top: -35px;
+    color: #4475e2;
+}
+
+.Main-content hr {
+    width: 130px;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+.Main-content .btn {
+    border: none;
+    outline: none;
+    padding: 15px 45px;
+    background: transparent;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: tramsform .3s;
+}
+
+.Main-content .btn:hover {
+    transform: translateY(5px);
+}
+
+.Main-content .btn1 {
+    background: #17375b;
+}
+
+.Main-content .btn1:hover {
+    background-color: #4475e2;
+}
+
+.Main-content .btn2 {
+    border: 2px solid #4475e2;
+    margin-left: 10px;
+    color: #4475e2;
+}
+
+.Main-content .btn2:hover {
+    background: #4475e2;
+    color: #fff
+}
+
+.Social-Media {
+    transform: translateY(80px) translateX(30px);
+}
+
+.Social-Media i {
+    font-size: 35px;
+    border: 2px solid #4475e2;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 50%;
+}
+
+.Social-Media i:hover {
+    background: #4475e2;
+    color: #fff;
+    transform: translateY(5px);
+}
